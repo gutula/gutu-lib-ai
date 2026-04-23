@@ -35,6 +35,7 @@ Provides the core typed AI helper surface that higher-level runtimes and plugins
 | Package ID | `ai` |
 | Display Name | AI |
 | Import Name | `@platform/ai` |
+| Canonical Namespace Target | `@gutu/ai` |
 | Version | `0.1.0` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
@@ -48,6 +49,7 @@ Provides the core typed AI helper surface that higher-level runtimes and plugins
 | Dev Dependencies | None |
 | React Runtime | No |
 | Workspace Scoped | Yes |
+| Legacy Compatibility IDs | `@platform/ai` |
 
 ### Dependency interpretation
 

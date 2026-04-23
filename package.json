@@ -6,11 +6,11 @@
     "framework/libraries/*"
   ],
   "scripts": {
-    "build": "bun --cwd framework/libraries/ai run build",
-    "typecheck": "bun --cwd framework/libraries/ai run typecheck",
-    "lint": "bun --cwd framework/libraries/ai run lint",
-    "test": "bun --cwd framework/libraries/ai run test",
-    "test:unit": "bun --cwd framework/libraries/ai run test:unit",
+    "build": "bun run --cwd framework/libraries/ai build",
+    "typecheck": "bun run --cwd framework/libraries/ai typecheck",
+    "lint": "bun run --cwd framework/libraries/ai lint",
+    "test": "bun run --cwd framework/libraries/ai test",
+    "test:unit": "bun run --cwd framework/libraries/ai test:unit",
     "docs:summary": "node scripts/docs-summary.mjs",
     "docs:check": "node scripts/docs-check.mjs"
   }

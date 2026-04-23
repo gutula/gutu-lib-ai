@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-ai",
   "packageId": "ai",
   "displayName": "AI",
+  "packageCount": 1,
   "group": "AI Foundation",
   "maturity": "Hardened",
   "description": "AI provider contract helpers and tool orchestration types.",
